@@ -1,0 +1,15 @@
+Optimize for the following screen widths:
+
+3000
+2800
+2000
+1920
+1420
+1050
+990
+700
+600
+500
+450
+400
+330

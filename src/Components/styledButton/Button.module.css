@@ -1,0 +1,63 @@
+/* support button styles */
+.supportButton {
+    background: #323a4c;
+    border-width:2px;
+    color: #87d5ef;
+    letter-spacing: 1px;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'FuturaPT-Book';
+    font-size: 20pt;
+    padding: 8px 40px;
+}
+
+.supportButton:hover {
+    background-color: #87d5ef;
+    color: #323a4c;
+}
+
+
+/* MEDIA QUERIES */  
+@media(min-width:3000px) {
+    .supportButton {
+        font-size: 35pt !important;
+    }
+}
+
+@media(min-width:2800px) {
+    .supportButton {
+        font-size: 30pt;
+    }
+}
+
+@media(min-width:2000px) {
+    .supportButton {
+        font-size: 25pt;
+    }
+}
+
+@media(max-width: 1420px) {
+    .supportButton {
+        font-size: 15pt;
+    }
+}
+
+@media(max-width: 1050px) {
+    .supportButton {
+        font-size: 12pt;
+    }
+}
+
+@media(max-width: 450px) {
+    .supportButton {
+        font-size: 10pt;
+        padding: 8px 30px;
+    }
+}
+
+@media(max-width: 330px) {
+    .supportButton {
+        font-size: 10pt;
+        padding: 8px 25px;
+    }
+}

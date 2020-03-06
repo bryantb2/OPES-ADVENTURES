@@ -1,0 +1,46 @@
+.highlightsDivider {
+    width: 100%;
+    background: #323a4c;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.dividerHeader {
+    font-family: 'FuturaPT-Medium';
+    font-size: 48pt;
+    color: white;
+    margin-bottom: -10px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width:3000px) {
+    .dividerHeader {
+        font-size: 90pt !important;
+    }
+}
+@media (min-width:2800px) {
+    .dividerHeader {
+        font-size: 80pt;
+    }
+}
+@media (min-width:2000px) {
+    .dividerHeader {
+        font-size: 60pt;
+    }
+}
+@media (max-width: 600px) {
+    .dividerHeader {
+        font-size: 40pt;
+    }
+}
+@media (max-width: 400px) {
+    .dividerHeader {
+        font-size: 30pt;
+    }
+}
+@media (max-width: 330px) {
+    .dividerHeader {
+        font-size: 25pt;
+    }
+}

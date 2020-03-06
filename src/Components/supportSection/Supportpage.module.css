@@ -1,0 +1,28 @@
+/* IMAGES styles */
+.imageRestrictions {
+    height: 250px;
+}
+
+.imageStyling {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Title Styling */
+.titleTextStyle {
+    font-family: 'FuturaPT-Medium';
+    font-size: 30pt;
+}
+
+.paraTextStyle {
+    font-family: 'FuturaPT-Book';
+    font-size: 15pt;
+}
+
+/* Page container styling */
+.customSupportPadding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'FuturaPT-Bold';
+    src: local('FuturaPT Bold'), local('FuturaPTBold'),
+    url(fonts/FuturaPTBold.otf);
+}
+
+@font-face {
+    font-family: "FuturaPT-Medium";
+    src: local('FuturaPT Medium'), local('FuturaPTMedium'),
+    url(fonts/FuturaPTMedium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "FuturaPT-MediumOblique";
+    src: local('FuturaPT Medium Oblique'), local('FuturaPTMediumOblique'),url(fonts/FuturaPTCondMediumOblique.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "FuturaPT-Book";
+    src: local('FuturaPT Book'), local('FuturaPTBook'),
+        url(fonts/FuturaPTBook.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "FuturaPT-Light";
+    src: local('FuturaPT Light'), local('FuturaPTLight'),url(fonts/FuturaPTLight.otf) format("opentype");
+}
+
+/* Basic styles*/
+html, body {margin:0;padding:0;height:100%; width: 100%;}
+
+html {
+-webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Global styles */
+.page-divider {
+    position: relative;
+    background-color: #454955;
+    width: 100%;
+    height: 75px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.d-flexCustom {
+    display:-ms-flexbox!important;
+    display:-webkit-flexbox!important;
+    display:flex!important;
+}
+
+/* this style exists because safari sucks and will not display flex properly */
+.display-SPECIALCASE {
+    display:flex!important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .display-SPECIALCASE {
+        display:-webkit-box!important;
+        text-align: center;
+    }
+}
+@-moz-document url-prefix() {
+    .display-SPECIALCASE {
+        display:flex!important;
+    }
+}

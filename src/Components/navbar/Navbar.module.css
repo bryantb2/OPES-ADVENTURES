@@ -1,0 +1,81 @@
+/* NAV BAR DIVIDER STYLES */
+.customNavBar {
+    min-height: 75px;
+}
+
+.customNavStylesunFixed {
+    /*detached from top of page until scrolled past*/
+    background-color: #454955;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.customNavStylesFixed {
+    /*affixes nav bar to top of page once scrolled past*/
+    background-color: #454955;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.customNavBrand {
+    font-family: 'FuturaPT-Book';
+    font-size: 25pt;
+    color: white;
+    margin-right: 2%;
+}
+
+.customNavVerticalLine {
+    border-left: 2px solid white;
+    height: 40px;
+}
+
+.customNavItem {
+    /*spacing out nav items*/
+    margin-left: 15%;
+    color: white;
+    font-size: 15pt;
+}
+
+.customNavLink:hover {
+    color: #87d5ef !important;
+}
+
+/* Special case styling */
+.customItemWidth {
+    min-width: 35%;
+}
+
+.customItemWidthTwo {
+    min-width: 20%;
+}
+
+
+/* NAVBAR PAGE MEDIA QUERY OPTIMIZATION*/
+@media (max-width: 991px) {
+    /* Special case: modifies margin spacing when the nav bar is collapsed  */
+    .customNavItem{
+        margin-left: 1%;
+        margin-top: 2.5%;
+    }
+    
+    .customNavVerticalLine {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .customNavBrand {
+        font-size: 15pt;
+    }
+    .customNavItem {
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 380px) {
+    .customNavLink {
+        padding-bottom: 2px;
+    }
+}

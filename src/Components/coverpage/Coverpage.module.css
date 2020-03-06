@@ -1,0 +1,223 @@
+/* cover page background styles*/
+.coverPageContainer {
+    overflow: hidden;
+    z-index: -101;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coverPageContainerSecondary {
+    z-index: -102;
+    width: 100.5%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+/* content container styles */
+.mainContentContainer {
+    height: 100%;
+    padding-bottom: 12%;
+}
+
+.imageGroupContainer {
+}
+
+.coverTextContainer {
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+.logoGroupStyle {
+    width: 75%;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+/* support group text styles */
+.generalTitleTextStyling {
+    font-family: 'FuturaPT-Medium';
+    color: #323a4c;
+}
+.coverTitleText {
+    font-size: 50pt;
+}
+
+.coverScrollText {
+    font-size: 15pt;
+}
+
+
+/* MEDIA QUERIES */
+@media(min-width:3000px) {
+    .coverTitleText {
+        font-size: 95pt !important;
+    }
+    .coverScrollText {
+        font-size: 35pt !important;
+    }
+}
+
+@media(min-width:2800px) {
+    .coverTitleText {
+        font-size: 75pt;
+    }
+    .coverScrollText {
+        font-size: 30pt;
+    }
+}
+
+@media(min-width:2000px) {
+    .coverTitleText {
+        font-size: 60pt;
+    }
+    .coverScrollText {
+        font-size: 20pt;
+    }
+}
+
+@media(max-width:1420px) {
+    .coverTitleText {
+        font-size: 35pt;
+    }
+    .marginBreaker {
+        margin-bottom: auto !important;
+    }
+}
+
+@media(max-width: 1050px) {
+    .coverTitleText {
+        font-size: 25pt;
+    }
+    .coverScrollText {
+        font-size: 12pt;
+    }
+}
+
+@media(max-width: 990px) {
+    .coverPageContainerSecondary {
+        background-position: 50% 120%;
+        background-size: 102%;
+    }
+    
+    .coverTextContainer {
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto !important;
+    }
+    
+    .logoGroupStyle {
+        width: 45%;
+    }
+    
+    .topColContainer {
+        margin-bottom: 35%;
+    }
+    
+    .mainContentContainer {
+        padding-bottom: 5%;
+    }
+    
+    .generalTitleTextStyling {
+        color: white;
+    }
+    
+    
+}
+
+@media(max-width: 700px) {
+    .coverPageContainerSecondary {
+        background-size: 110%;
+    }
+}
+
+@media(max-width: 650px) {
+    .logoGroupStyle {
+        width: 55%;
+    }
+    .coverPageContainerSecondary {
+        background-size: 115%;
+    }
+}
+
+@media(max-width: 600px) {
+    .coverPageContainerSecondary {
+        background-size: 120%;
+    }
+    
+    .topColContainer {
+        margin-bottom: 35%;
+    }
+}
+
+@media(max-width: 550px) {
+    .coverPageContainerSecondary {
+        background-size: 135%;
+    }
+    
+    .logoGroupStyle {
+        width: 65%;
+    }
+    
+    .topColContainer {
+        margin-bottom: 45%;
+    }
+}
+
+@media(max-width: 500px) {
+    .coverPageContainerSecondary {
+        background-size: 145%;
+    }
+}
+
+@media(max-width: 450px) {
+    .coverPageContainerSecondary {
+        background-size: 155%;
+    }
+    
+    .logoGroupStyle {
+        width: 75%;
+    }
+}
+
+@media(max-width: 400px) {
+    .coverPageContainerSecondary {
+        background-size: 165%;
+    }
+    
+    .logoGroupStyle {
+        width: 85%;
+    }
+    
+    .topColContainer {
+        margin-bottom: 50%;
+    }
+    
+    .coverTitleText {
+        font-size: 20pt;
+    }
+    
+    .coverScrollText {
+        font-size: 10pt;
+    }
+}
+
+@media(max-width: 330px) {
+    .coverPageContainerSecondary {
+        background-size: 175%;
+    }
+    
+    .coverTitleText {
+        font-size: 15pt;
+    }
+    
+    .logoGroupStyle {
+        width: 90%;
+    }
+}
+
+
+
+
