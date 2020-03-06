@@ -32,7 +32,7 @@
 }
 
 .coverScrollText {
-    font-size: 15pt;
+    font-size: 25pt;
 }
 
 
@@ -72,129 +72,9 @@
 
 @media(max-width: 1050px) {
     .coverTitleText {
-        font-size: 25pt;
+        font-size: 30pt;
     }
     .coverScrollText {
-        font-size: 12pt;
-    }
-}
-
-/*@media(max-width: 990px) {
-    .coverPageContainerSecondary {
-        background-position: 50% 120%;
-        background-size: 102%;
-    }
-    
-    /*.logoGroupStyle {
-        width: 45%;
-    }
-    
-    .topColContainer {
-        margin-bottom: 35%;
-    }
-    
-    .mainContentContainer {
-        padding-bottom: 5%;
-    }
-    
-    .generalTitleTextStyling {
-        color: white;
-    }
-    
-    
-}
-
-@media(max-width: 700px) {
-    .coverPageContainerSecondary {
-        background-size: 110%;
-    }
-}
-
-@media(max-width: 650px) {
-    .logoGroupStyle {
-        width: 55%;
-    }
-    .coverPageContainerSecondary {
-        background-size: 115%;
-    }
-}
-
-@media(max-width: 600px) {
-    .coverPageContainerSecondary {
-        background-size: 120%;
-    }
-    
-    .topColContainer {
-        margin-bottom: 35%;
-    }
-}
-
-@media(max-width: 550px) {
-    .coverPageContainerSecondary {
-        background-size: 135%;
-    }
-    
-    .logoGroupStyle {
-        width: 65%;
-    }
-    
-    .topColContainer {
-        margin-bottom: 45%;
-    }
-}
-
-@media(max-width: 500px) {
-    /*.coverPageContainerSecondary {
-        background-size: 145%;
-    }
-}
-
-@media(max-width: 450px) {
-    .coverPageContainerSecondary {
-        background-size: 155%;
-    }
-    
-    .logoGroupStyle {
-        width: 75%;
-    }
-}*/
-
-@media(max-width: 400px) {
-    /*.coverPageContainerSecondary {
-        background-size: 165%;
-    }
-    
-    .logoGroupStyle {
-        width: 85%;
-    }
-    
-    .topColContainer {
-        margin-bottom: 50%;
-    }*/
-    
-    .coverTitleText {
-        font-size: 20pt;
-    }
-    
-    .coverScrollText {
-        font-size: 10pt;
-    }
-}
-
-@media(max-width: 330px) {
-    /*.coverPageContainerSecondary {
-        background-size: 175%;
-    }*/
-    
-    .coverTitleText {
         font-size: 15pt;
     }
-    
-    /*.logoGroupStyle {
-        width: 90%;
-    }*/
 }
-
-
-
-
