@@ -2,10 +2,12 @@
 .homePageContainer {
     z-index: -101;
     width: 100%;
-    background-image: url("../../ImageAssets/shipLap.jpg");
+    background-image: url("../../ImageAssets/adventurePics/tableStock.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'FuturaPT-Medium';
+    color: white;
 }
 
 .homePageContainerSecondary {
@@ -14,65 +16,65 @@
 }
 
 /* content container styles */
-.mainContentContainer {
+/*.mainContentContainer {
     height: 80%;
-}
+}*/
 
-.imageGroupContainer { /* applied to aside tag */
+/*.imageGroupContainer { /* applied to aside tag 
     height: 21%;
-}
+}*/
 
 .imageGroupInnerContainer { /* applied to div tag nested inside the main aside tag */
     padding-top: 10%;
     padding-bottom: 6%;
 }
 
-.homeTitleContainer {
+/*.homeTitleContainer {
     margin-top: 23%;
-}
+}*/
 
-.homeParagraphContainer {
-    margin-top: 15%;
-}
+/*.homeParagraphContainer {
+    /*margin-top: 15%;
+    text-align: center;
+}*/
 
 .downArrowStyle {
     object-fit: contain;
     max-height: 30px;
 }
 
-/* horizontal line style */
+/* horizontal line style 
 .horizontalLine {
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid #848484;
     width: 100px;
     border-radius: 3px;
-}
+}*/
 
-/* general text styles */
+/* general text styles 
 .generalTextStyling {
-    font-family: 'FuturaPT-Medium';
-    color: white;
-}
+    
+}*/
 
 /* block letter AND specialized text styles */
 .homeBoldText {
     font-family: 'FuturaPT-Bold';
-    color: #323a4c;
+    color: #ffffff;
     font-size: 90pt;
 }
 
-.homeAboutText {
+/*.homeAboutText {
     font-family: 'FuturaPT-Light';
     font-size: 85pt;
     margin-bottom: -3.5rem !important;
-}
+}*/
 
-.homeOpesText {
+/*.homeOpesText {
     margin-bottom: -5rem !important;
-}
+}*/
 
 .homeUsaText {
-    color: #f16978;
-    font-size: 110pt;
+    color: #ffffff;
+    /*font-size: 110pt;*/
     margin-bottom: -2.5rem;
 }
 
@@ -86,13 +88,6 @@
 }
 
 /* MEDIA QUERIES */
-@media (min-width:3000px) {
-}
-@media (min-width:2800px) {
-}
-@media (min-width:2000px) {
-}
-
 @media (max-width: 1420px) {
     .homeParagraphText {
         font-size: 20pt;
@@ -100,26 +95,26 @@
 }
 @media (max-width: 1198px) {
     /* point at which bootstrap col-lg grid takes over */
-    .homeTitleContainer {
+    /*.homeTitleContainer {
         margin-top: 10%;
-    }
-    .homeParagraphContainer {
+    }*/
+    /*.homeParagraphContainer {
         margin-top: 6%;
     }
     
     /* TEXT STYLING */
-    .homeAboutText {
+    /*.homeAboutText {
         margin-bottom: -3rem !important;
-    }
-    .homeOpesText {
+    }*/
+    /*.homeOpesText {
         margin-bottom: -5rem !important;
-    }
+    }*/
     .homeUsaText {
         margin-bottom: -2rem !important;
     }
-    .homeParagraphContainer {
+    /*.homeParagraphContainer {
         text-align: center;
-    }
+    }*/
 
 }
 @media (max-width: 1050px) {
@@ -127,15 +122,15 @@
     .homeBoldText {
         font-size: 70pt;
     }
-    .homeAboutText {
+    /*.homeAboutText {
         font-size: 70pt;
-    }
+    }*/
     .homeUsaText {
         font-size: 85pt;
     }
-    .homeOpesText {
+   /* .homeOpesText {
         margin-bottom: -4rem !important;
-    }
+    }*/
     
 }
 @media (max-width: 990px) {
@@ -154,32 +149,31 @@
     .homeBoldText {
         font-size: 52pt;
     }
-    .homeAboutText {
+   /* .homeAboutText {
         font-size: 50pt;
-    }
+    }*/
     .homeUsaText {
         font-size: 65pt;
     }
-    .homeOpesText {
+    /*.homeOpesText {
         margin-bottom: -3.5rem !important;
-    }
-    .homeAboutText {
+    }*/
+    /*.homeAboutText {
         margin-bottom: -2.5rem !important;
-    }
+    }*/
     
     /* LINE STYLE */
     .horizontalLine {
-        border-bottom: 7px solid white;
+        border-bottom: 7px solid #848484;
         width: 75px;
     }
 }
-@media (max-width: 600px) {
-}
+
 @media (max-width: 500px) {
-}
-@media (max-width: 450px) {
-}
-@media (max-width: 400px) {
-}
-@media (max-width: 330px) {
+    .homeBoldText {
+        font-size: 45pt;
+    }
+    .homeUsaText {
+        font-size: 45pt;
+    }
 }

@@ -5,7 +5,7 @@
 
 .customNavStylesunFixed {
     /*detached from top of page until scrolled past*/
-    background-color: #454955;
+    background-color: #848484;
     top: 0;
     width: 100%;
     z-index: 100;
@@ -13,7 +13,7 @@
 
 .customNavStylesFixed {
     /*affixes nav bar to top of page once scrolled past*/
-    background-color: #454955;
+    background-color: #848484;
     position: fixed;
     top: 0;
     width: 100%;

@@ -394,9 +394,9 @@ TextConstants.HomePageText = "A great poet said: This is my land and these are m
 
 // DIVIDERS TEXT
 
-TextConstants.FirstDividerText = "MyAmerica";
+TextConstants.FirstDividerText = "Support Us";
 TextConstants.SecondDividerText = "Getting Involved"
-TextConstants.ThirdDividerText="Join Us";
+TextConstants.ThirdDividerText="";
 
 // SECTIONS TEXT
 
