@@ -66,6 +66,9 @@ class Coverpage extends React.Component {
         <section id="coverPage" className={Styles.coverPageContainer + " jumbotron " + Styles.verticalCenter}>
             <div id="coverPageContainerSecondary" className={"container"}>
                 <div className={Styles.coverTextContainer + "d-flex flex-column justify-content-center mb-3"}>
+                    <div className={"text-center mb-2 pb-2"}>
+                        <img src={this.props.mainLogo} width="200px" height="200px"/>
+                    </div>
                     <div className={Styles.generalTitleTextStyling + " text-center mb-2 pb-2"}>
                         <h1 className={Styles.coverTitleText}>{this.props.titleText}</h1>
                     </div>

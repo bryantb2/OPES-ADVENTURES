@@ -10,8 +10,9 @@ import Supportpage from "./Components/supportSection/Supportpage.js";
 
 import TextConstants from "./UtilityComponents/PageText.js";
 
-// cover page background images
+// cover page background and logo images
 import MainBackgroundImage from "./ImageAssets/adventurePics/outdoorStock.jpg";
+import Logo from "./ImageAssets/icons/adventureWhiteLogo.png";
 
 // support page QR code import
 import QRCodeImage from "./ImageAssets/QRCode.png";
@@ -22,6 +23,7 @@ function App() {
         <Coverpage 
             titleText={TextConstants.CoverPageTitle}
             mainBackgroundImage={MainBackgroundImage}
+            mainLogo={Logo}
         />
         <div className="page-divider">
             <Navbar 
