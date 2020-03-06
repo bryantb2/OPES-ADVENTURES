@@ -4,9 +4,9 @@ import './App.css';
 import Navbar from "./Components/navbar/Navbar.js";
 import Coverpage from "./Components/coverpage/Coverpage.js";
 import Homepage from "./Components/homepage/Homepage.js";
-import Sectionpage from "./Components/appSections/Sectionpage.js";
+//import Sectionpage from "./Components/appSections/Sectionpage.js";
 import Divider from "./Components/dividers/Divider.js";
-import Participationpage from "./Components/participationpage/Participationpage.js";
+//import Participationpage from "./Components/participationpage/Participationpage.js";
 import ContactInfo from "./Components/contactInfo/ContactInfo.js";
 import Supportpage from "./Components/supportSection/Supportpage.js";
 
@@ -20,7 +20,7 @@ import ForegroundImage from "./ImageAssets/logoGroup.png";*/
 import MainBackgroundImage from "./ImageAssets/adventurePics/outdoorStock.jpg";
 
 // section images
-import PeopleImage from "./ImageAssets/ronaldR.jpg";
+/*import PeopleImage from "./ImageAssets/ronaldR.jpg";
 import PlacesImage from "./ImageAssets/forest.jpg";
 import RWBImage from "./ImageAssets/RWB.jpg";
 
@@ -38,7 +38,7 @@ import DarkBlueCircleDivider from "./ImageAssets/circleDividerDarkBlue.png";
 // participation image content
 import Image1 from "./ImageAssets/stockOne.jpg";
 import Image2 from "./ImageAssets/stockTwo.jpg";
-import Image3 from "./ImageAssets/stockThree.jpg";
+import Image3 from "./ImageAssets/stockThree.jpg";*/
 
 // support page QR code import
 import QRCodeImage from "./ImageAssets/QRCode.png";
@@ -48,7 +48,7 @@ import footerBackground from './ImageAssets/footerBackground.png';
 
 function App() {
     // sections image URL arrays
-    const sectionIconArray = [PeopleIcon,PlacesIcon,RWBIcon];
+    /*const sectionIconArray = [PeopleIcon,PlacesIcon,RWBIcon];
     const sectionImagesArray = [PeopleImage,PlacesImage,RWBImage];
     const sectionDividerArray = [RedCircleDivider,LightBlueCircleDivider,DarkBlueCircleDivider];
     
@@ -61,7 +61,7 @@ function App() {
     
     // participation text content arrays
     const participationTitleArray = [TextConstants.FirstColTitle,TextConstants.SecondColTitle, TextConstants.ThirdColTitle];
-    const participationParaTextArray = [TextConstants.FirstColParagraph,TextConstants.SecondColParagraph, TextConstants.ThirdColParagraph];
+    const participationParaTextArray = [TextConstants.FirstColParagraph,TextConstants.SecondColParagraph, TextConstants.ThirdColParagraph];*/
     
   return (
     <div className="UIContainer">
@@ -90,8 +90,6 @@ function App() {
             firstPara={TextConstants.SupportParagraph}
             secondTitle={TextConstants.DownloadTitle}
             secondPara={TextConstants.DownloadParagraph}
-            thirdTitle={TextConstants.VisitTitle}
-            thirdPara={TextConstants.VisitParagraph}
             QRCodeImage={QRCodeImage}
         />
         <ContactInfo

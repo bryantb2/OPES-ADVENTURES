@@ -32,20 +32,6 @@ function Supportpage(props) {
                     <img src={props.QRCodeImage} className={Styles.imageStyling}/>
                 </div>
             </div>
-            <div className="col-lg-4 col-10 flex-column mb-5">
-                <div className={" d-flex p-2 justify-content-center text-center"}>
-                    <h1 className={Styles.titleTextStyle}>{props.thirdTitle}</h1>
-                </div>
-                <div className={" d-flex p-3 justify-content-center"}>
-                    <p className={Styles.paraTextStyle + " text-center"}>{props.thirdPara}</p>
-                </div>
-                <div className={" d-flex mb-2 p-2 justify-content-center"}>
-                    <StyledButton
-                        buttonText={TextConstants.ThirdButtonText}
-                        buttonLink={TextConstants.ButtonProductLink}
-                    />
-                </div>
-            </div>
         </section>
     );
 }

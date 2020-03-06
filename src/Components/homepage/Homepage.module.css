@@ -15,45 +15,15 @@
     background-color: rgba(204,204,204,0.4);
 }
 
-/* content container styles */
-/*.mainContentContainer {
-    height: 80%;
-}*/
-
-/*.imageGroupContainer { /* applied to aside tag 
-    height: 21%;
-}*/
-
 .imageGroupInnerContainer { /* applied to div tag nested inside the main aside tag */
     padding-top: 10%;
     padding-bottom: 6%;
 }
 
-/*.homeTitleContainer {
-    margin-top: 23%;
-}*/
-
-/*.homeParagraphContainer {
-    /*margin-top: 15%;
-    text-align: center;
-}*/
-
 .downArrowStyle {
     object-fit: contain;
     max-height: 30px;
 }
-
-/* horizontal line style 
-.horizontalLine {
-    border-bottom: 10px solid #848484;
-    width: 100px;
-    border-radius: 3px;
-}*/
-
-/* general text styles 
-.generalTextStyling {
-    
-}*/
 
 /* block letter AND specialized text styles */
 .homeBoldText {
@@ -61,16 +31,6 @@
     color: #ffffff;
     font-size: 90pt;
 }
-
-/*.homeAboutText {
-    font-family: 'FuturaPT-Light';
-    font-size: 85pt;
-    margin-bottom: -3.5rem !important;
-}*/
-
-/*.homeOpesText {
-    margin-bottom: -5rem !important;
-}*/
 
 .homeUsaText {
     color: #ffffff;
@@ -94,44 +54,18 @@
     }
 }
 @media (max-width: 1198px) {
-    /* point at which bootstrap col-lg grid takes over */
-    /*.homeTitleContainer {
-        margin-top: 10%;
-    }*/
-    /*.homeParagraphContainer {
-        margin-top: 6%;
-    }
-    
-    /* TEXT STYLING */
-    /*.homeAboutText {
-        margin-bottom: -3rem !important;
-    }*/
-    /*.homeOpesText {
-        margin-bottom: -5rem !important;
-    }*/
     .homeUsaText {
         margin-bottom: -2rem !important;
     }
-    /*.homeParagraphContainer {
-        text-align: center;
-    }*/
-
 }
 @media (max-width: 1050px) {
     /* TEXT STYLING */
     .homeBoldText {
         font-size: 70pt;
     }
-    /*.homeAboutText {
-        font-size: 70pt;
-    }*/
     .homeUsaText {
         font-size: 85pt;
     }
-   /* .homeOpesText {
-        margin-bottom: -4rem !important;
-    }*/
-    
 }
 @media (max-width: 990px) {
     .homeScrollText {
@@ -149,18 +83,9 @@
     .homeBoldText {
         font-size: 52pt;
     }
-   /* .homeAboutText {
-        font-size: 50pt;
-    }*/
     .homeUsaText {
         font-size: 65pt;
     }
-    /*.homeOpesText {
-        margin-bottom: -3.5rem !important;
-    }*/
-    /*.homeAboutText {
-        margin-bottom: -2.5rem !important;
-    }*/
     
     /* LINE STYLE */
     .horizontalLine {
