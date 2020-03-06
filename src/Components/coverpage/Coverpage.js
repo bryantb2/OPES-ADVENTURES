@@ -64,30 +64,22 @@ class Coverpage extends React.Component {
     render() {
         return (
         <section id="coverPage" className={Styles.coverPageContainer + " jumbotron " + Styles.verticalCenter}>
-            
-            <div id="coverPageContainerSecondary" className={" container"}>
-                <div className={Styles.mainContentContainer + " row"}>
-            
-                    <div className="col-xl-7 col-lg-7 col-12 ">
-                        <div className={Styles.coverTextContainer + " d-flexCustom flex-column justify-content-center mb-3"}>
-                            <div className={Styles.generalTitleTextStyling + " " + Styles.marginBreaker + " d-flexCustom mb-2 pb-2 justify-content-center"}>
-                                <h1 className={Styles.coverTitleText}>{this.props.titleText}</h1>
-                            </div>
-                            <div className={Styles.marginBreaker + " d-flexCustom mb-4 pb-2 justify-content-center"}>
-                                <StyledButton
-                                    buttonText={TextConstants.FirstButtonText}
-                                    buttonLink={TextConstants.ButtonSupportLink}
-                                />
-                            </div>
-                            <div className={Styles.generalTitleTextStyling + " d-flexCustom pb-2 justify-content-center"}>
-                                <h2 className={Styles.coverScrollText}>Scroll Down for More</h2>
-                            </div>
-                        </div>
+            <div id="coverPageContainerSecondary" className={"container"}>
+                <div className={Styles.coverTextContainer + "d-flex flex-column justify-content-center mb-3"}>
+                    <div className={Styles.generalTitleTextStyling + " text-center mb-2 pb-2"}>
+                        <h1 className={Styles.coverTitleText}>{this.props.titleText}</h1>
                     </div>
-            
+                    <div className={"mb-4 pb-2 text-center"}>
+                        <StyledButton
+                            buttonText={TextConstants.FirstButtonText}
+                            buttonLink={TextConstants.ButtonSupportLink}
+                        />
+                    </div>
+                    <div className={Styles.generalTitleTextStyling + " text-center pb-2"}>
+                        <h2 className={Styles.coverScrollText}>Scroll Down for More</h2>
+                    </div>
                 </div>
             </div>
-            
         </section>
     )};   
 }

@@ -388,7 +388,7 @@ TextConstants.FifthNavItemText = "";
 
 // INTRO AND HOMEPAGE TEXT
 
-TextConstants.CoverPageTitle = "A Celebration of the Nation";
+TextConstants.CoverPageTitle = "Blockchain for the Venturous Soul";
 TextConstants.HomePageText = "A great poet said: This is my land and these are my people. OPES USA’s mission is to showcase great American people and the places you love. We have the platform to cheer the police officer who protects your streets, to brag about the best pizza in town or to crow about your local farm. This is the place to celebrate the Red, White, and Blue. This is the place to shine a spotlight on the America that only you know. Did your 4th grade teacher shape your life? Would you rather be at your favorite swimming hole than anywhere else? Did a firefighter save your neighbor’s home? Are the back country roads near your home town paradise? Is there a beautiful American flag flying in your yard? The MyAmerica app is coming! Consider supporting our mission by downloading the OPES ID app and hitting our support button!";
 
 

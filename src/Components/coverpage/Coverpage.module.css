@@ -25,10 +25,10 @@
 /* support group text styles */
 .generalTitleTextStyling {
     font-family: 'FuturaPT-Medium';
-    color: #323a4c;
+    color: #ffffff;
 }
 .coverTitleText {
-    font-size: 50pt;
+    font-size: 55pt;
 }
 
 .coverScrollText {
@@ -68,9 +68,6 @@
     .coverTitleText {
         font-size: 35pt;
     }
-    .marginBreaker {
-        margin-bottom: auto !important;
-    }
 }
 
 @media(max-width: 1050px) {
@@ -82,19 +79,13 @@
     }
 }
 
-@media(max-width: 990px) {
+/*@media(max-width: 990px) {
     .coverPageContainerSecondary {
         background-position: 50% 120%;
         background-size: 102%;
     }
     
-    .coverTextContainer {
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto !important;
-    }
-    
-    .logoGroupStyle {
+    /*.logoGroupStyle {
         width: 45%;
     }
     
@@ -153,7 +144,7 @@
 }
 
 @media(max-width: 500px) {
-    .coverPageContainerSecondary {
+    /*.coverPageContainerSecondary {
         background-size: 145%;
     }
 }
@@ -166,10 +157,10 @@
     .logoGroupStyle {
         width: 75%;
     }
-}
+}*/
 
 @media(max-width: 400px) {
-    .coverPageContainerSecondary {
+    /*.coverPageContainerSecondary {
         background-size: 165%;
     }
     
@@ -179,7 +170,7 @@
     
     .topColContainer {
         margin-bottom: 50%;
-    }
+    }*/
     
     .coverTitleText {
         font-size: 20pt;
@@ -191,17 +182,17 @@
 }
 
 @media(max-width: 330px) {
-    .coverPageContainerSecondary {
+    /*.coverPageContainerSecondary {
         background-size: 175%;
-    }
+    }*/
     
     .coverTitleText {
         font-size: 15pt;
     }
     
-    .logoGroupStyle {
+    /*.logoGroupStyle {
         width: 90%;
-    }
+    }*/
 }
 
 
