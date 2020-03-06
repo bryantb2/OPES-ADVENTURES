@@ -100,33 +100,27 @@ class Navbar extends React.Component {
     
     render() {
         return (
-        <nav id="navigationBar" className={((this.props.alwaysFixed===true || this.state.navBarSticking===true) ? Styles.customNavStylesFixed : Styles.customNavStylesunFixed) + " " + Styles.customNavStylesunFixed + " " + Styles.customNavBar + " navbar navbar-expand-lg navbar-dark "}>
-          <a className={Styles.customNavBrand + " navbar-brand"} href="#">OPES USA</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
+            <nav id="navigationBar" className={((this.props.alwaysFixed===true || this.state.navBarSticking===true) ? Styles.customNavStylesFixed : Styles.customNavStylesunFixed) + " " + Styles.customNavStylesunFixed + " " + Styles.customNavBar + " navbar navbar-expand-lg navbar-dark "}>
+              <a className={Styles.customNavBrand + " navbar-brand"} href="#">OPES Adventures</a>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className={Styles.customNavVerticalLine}>&nbsp;</div>
-            <ul className="navbar-nav mr-auto">
-                <li className={Styles.customNavItem + " nav-item active"}>
-                    <a className={Styles.customNavLink + " nav-link"} href="#homeSection">{this.props.firstItemText}<span className="sr-only">(current)</span></a>
-                </li>
-                <li className={Styles.customNavItem + " nav-item active"}>
-                    <a className={Styles.customNavLink + " nav-link"} href="#divider1" >{this.props.secondItemText}<span className="sr-only">(current)</span></a>
-                </li>
-                <li className={Styles.customNavItem + " " + Styles.customItemWidth + " nav-item active"}>
-                    <a className={Styles.customNavLink + " nav-link"} href="#divider2">{this.props.thirdItemText}<span className="sr-only">(current)</span></a>
-                </li>
-                <li className={Styles.customNavItem + " " + Styles.customItemWidthTwo + " nav-item active"}>
-                    <a className={Styles.customNavLink + " nav-link"} href="#divider3">{this.props.fourthItemText}<span className="sr-only">(current)</span></a>
-                </li>
-                <li className={Styles.customNavItem + " nav-item active"}>
-                    <a className={Styles.customNavLink + " nav-link"} href="#contactSection">{this.props.fifthItemText}<span className="sr-only">(current)</span></a>
-                </li>
-            </ul>
-          </div>
-        </nav>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className={Styles.customNavVerticalLine}>&nbsp;</div>
+                <ul className="navbar-nav mr-auto">
+                    <li className={Styles.customNavItem + " nav-item active"}>
+                        <a className={Styles.customNavLink + " nav-link"} href="#homeSection">{this.props.firstItemText}<span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className={Styles.customNavItem + " nav-item active"}>
+                        <a className={Styles.customNavLink + " nav-link"} href="#divider1" >{this.props.secondItemText}<span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className={Styles.customNavItem + " " + Styles.customItemWidth + " nav-item active"}>
+                        <a className={Styles.customNavLink + " nav-link"} href="#divider2">{this.props.thirdItemText}<span className="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+              </div>
+            </nav>
         );
     }
 }

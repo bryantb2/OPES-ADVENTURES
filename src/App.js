@@ -13,10 +13,11 @@ import Supportpage from "./Components/supportSection/Supportpage.js";
 import TextConstants from "./UtilityComponents/PageText.js";
 
 // cover page background images
-import GradientImage from "./ImageAssets/coverPageGradient.svg";
+/*import GradientImage from "./ImageAssets/coverPageGradient.svg";
 import MainBackgroundImage from "./ImageAssets/mountainVector.svg";
 import MobileBackgroundImage from "./ImageAssets/mountainVectorMobile.svg";
-import ForegroundImage from "./ImageAssets/logoGroup.png";
+import ForegroundImage from "./ImageAssets/logoGroup.png";*/
+import MainBackgroundImage from "./ImageAssets/adventurePics/outdoorStock.jpg";
 
 // section images
 import PeopleImage from "./ImageAssets/ronaldR.jpg";
@@ -63,13 +64,10 @@ function App() {
     const participationParaTextArray = [TextConstants.FirstColParagraph,TextConstants.SecondColParagraph, TextConstants.ThirdColParagraph];
     
   return (
-    <div className="UIContainer" >
+    <div className="UIContainer">
         <Coverpage 
             titleText={TextConstants.CoverPageTitle}
-            gradientImage={GradientImage}
             mainBackgroundImage={MainBackgroundImage}
-            mobileBackgroundImage={MobileBackgroundImage}
-            foregroundImage={ForegroundImage}
         />
         <div className="page-divider">
             <Navbar 
@@ -86,29 +84,6 @@ function App() {
         <Divider
             dividerNumber={1}
             text={TextConstants.FirstDividerText}
-        />
-        <Sectionpage 
-            headerTextArray={titleTextArray}
-            mainContentArray={paraTextArray}
-      
-            iconArray={sectionIconArray}
-            mainImageArray={sectionImagesArray}
-            dividerArray={sectionDividerArray}
-        />
-        <Divider
-            dividerNumber={2}
-            text={TextConstants.SecondDividerText}
-        />
-        <Participationpage 
-            mainTitleText={TextConstants.ParticipationTitleArray}
-            imageArray={participationImagesArray}
-            titleArray={participationTitleArray}
-            paraTextArray={participationParaTextArray}
-            divider={DarkBlueCircleDivider}
-        />
-        <Divider
-            dividerNumber={3}
-            text={TextConstants.ThirdDividerText}
         />
         <Supportpage
             firstTitle={TextConstants.SupportTitle}

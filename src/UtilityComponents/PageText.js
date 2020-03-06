@@ -380,10 +380,10 @@ TextConstants.ButtonProductLink="#";
 // NAVBAR TEXT
 
 TextConstants.FirstNavItemText = "About";
-TextConstants.SecondNavItemText = "MyAmerica";
-TextConstants.ThirdNavItemText = "Getting Involved";
-TextConstants.FourthNavItemText = "Join Us";
-TextConstants.FifthNavItemText = "Contact";
+TextConstants.SecondNavItemText = "Support";
+TextConstants.ThirdNavItemText = "Contact";
+TextConstants.FourthNavItemText = "";
+TextConstants.FifthNavItemText = "";
 
 
 // INTRO AND HOMEPAGE TEXT

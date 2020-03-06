@@ -7,27 +7,29 @@ class Coverpage extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            isMobileBGSet: false, // this variable is used to simply track the setbackground logic, since a bool variable takes the place of directly checking the DOM for a BG image name
+            //isMobileBGSet: false, // this variable is used to simply track the setbackground logic, since a bool variable takes the place of directly checking the DOM for a BG image name
         };
         
         // BINDS
-        this.setProperBackgroundImage = this.setProperBackgroundImage.bind(this);
-        this.initializeBGImage = this.initializeBGImage.bind(this);
+        //this.setProperBackgroundImage = this.setProperBackgroundImage.bind(this);
+       // this.initializeBGImage = this.initializeBGImage.bind(this);
         
         // EVENT LISTENERS
-        window.addEventListener('resize',this.setProperBackgroundImage);
+        //window.addEventListener('resize',this.setProperBackgroundImage);
     }
     
     // LIFECYCLE METHODS
     componentDidMount() { 
         // easiest way to add a CSS background image given the fact that the URL comes from the parent component
-        document.getElementById("coverPage").style.backgroundImage = `url('${this.props.gradientImage}')`; 
-        document.getElementById("coverPageContainerSecondary").style.backgroundImage = `url('${this.props.mainBackgroundImage}')`;
-        this.initializeBGImage();
+        //document.getElementById("coverPage").style.backgroundImage = `url('${this.props.gradientImage}')`; 
+        //document.getElementById("coverPageContainerSecondary").style.backgroundImage = `url('${this.props.mainBackgroundImage}')`;
+        //this.initializeBGImage();
+        
+        document.getElementById("coverPage").style.backgroundImage = `url('${this.props.mainBackgroundImage}')`;
     }
     
     // METHODS
-    setProperBackgroundImage() {
+    /*setProperBackgroundImage() {
         // BG was set to desktop layout and then the layout was shrunk
         let windowWidth = window.innerWidth;
         let mobileBGBool = this.state.isMobileBGSet;
@@ -44,9 +46,9 @@ class Coverpage extends React.Component {
             });
             document.getElementById("coverPageContainerSecondary").style.backgroundImage = `url('${this.props.mainBackgroundImage}')`; 
         }
-    }
+    }*/
     
-    initializeBGImage() {
+    /*initializeBGImage() {
         // sets the mobileBG bool in the state to true AND BG image if the screen size is below 990px
         // if not below 990, then the BG bool stays at false, meaning the website is using the desktop image
         let windowWidth = window.innerWidth;
@@ -57,17 +59,15 @@ class Coverpage extends React.Component {
             document.getElementById("coverPageContainerSecondary").style.backgroundImage = `url('${this.props.mobileBackgroundImage}')`; 
         }
     }
+    */
     
     render() {
         return (
-        <section id="coverPage" className={Styles.coverPageContainer}>
-            <div id="coverPageContainerSecondary" className={Styles.coverPageContainerSecondary}>
+        <section id="coverPage" className={Styles.coverPageContainer + " jumbotron " + Styles.verticalCenter}>
+            
+            <div id="coverPageContainerSecondary" className={" container"}>
                 <div className={Styles.mainContentContainer + " row"}>
-                    <div className={Styles.topColContainer + " col-xl-5 col-lg-5 col-12"}>
-                        <div className={Styles.imageGroupContainer + " display-SPECIALCASE justify-content-center"} >
-                            <img className={Styles.logoGroupStyle} src={this.props.foregroundImage}/>
-                        </div>
-                    </div>
+            
                     <div className="col-xl-7 col-lg-7 col-12 ">
                         <div className={Styles.coverTextContainer + " d-flexCustom flex-column justify-content-center mb-3"}>
                             <div className={Styles.generalTitleTextStyling + " " + Styles.marginBreaker + " d-flexCustom mb-2 pb-2 justify-content-center"}>
@@ -84,8 +84,10 @@ class Coverpage extends React.Component {
                             </div>
                         </div>
                     </div>
+            
                 </div>
             </div>
+            
         </section>
     )};   
 }
