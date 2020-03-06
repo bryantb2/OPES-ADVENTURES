@@ -12,6 +12,10 @@
     width: 100%;
 }
 
+#contactSection {
+    background-color: #848484;
+}
+
 /* header and sub header text styles and alignment */
 .customHeaderAlignText {
     text-align: center;

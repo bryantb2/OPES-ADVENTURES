@@ -31,7 +31,7 @@ class ContactInfo extends React.Component {
     // LIFECYCLE METHODS
     componentDidMount() {
         // easiest way to add a CSS background image given the fact that the URL comes from the parent component
-        document.getElementById("contactSection").style.backgroundImage = `url('${this.props.contactBackground}')`; 
+        //document.getElementById("contactSection").style.backgroundImage = `url('${this.props.contactBackground}')`; 
     }
     
     //EVENT LISTENERS
@@ -105,7 +105,7 @@ class ContactInfo extends React.Component {
     //LAYOUTS
     smallLayout() {
         return (
-        <footer id="contactSection">
+        <footer id="contactSection" className="py-5">
             <div className="container footer-contentContainer">
                 <div className="row customContentJustify-center customHeaderAlignText">
                     <div className="col-lg-8 col-md-8 col-8 contactInfoHeader">
@@ -176,7 +176,7 @@ class ContactInfo extends React.Component {
     
     largeLayout() {
         return (
-            <footer id="contactSection">
+            <footer id="contactSection" className="py-5"> 
                 <div className="container footer-contentContainer">
                     <div className="row customContentJustify-center customHeaderAlignText">
                         <div className="col-lg-8 col-md-8 col-8 contactInfoHeader">

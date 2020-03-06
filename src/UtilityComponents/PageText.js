@@ -431,7 +431,7 @@ TextConstants.VisitParagraph = "";
 
 // CONTACT TEXT
 TextConstants.ContactTitle = "Contact Information";
-TextConstants.ContactSubTitle = "For Comments, Questions, or Business Inquiries about MyAmerica or OPES USA:";
+TextConstants.ContactSubTitle = "For Comments, Questions, or Business Inquiries about OPES Adventures:";
 TextConstants.MerchStoreText = "abc.com";
 TextConstants.LocationText = "USA";
 TextConstants.PhoneText = "541 665 7834";
