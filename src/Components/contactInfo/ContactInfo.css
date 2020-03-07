@@ -53,9 +53,6 @@
 }
 
 /* CONTACT INFO MEDIA QUERY OPTIMIZATION */
-@media (min-width: 1920px) {
-}
-
 @media (max-width: 1200px) {
     .contactInfoHeader {
         font-size: 65pt;
@@ -63,22 +60,6 @@
     .contactInfo-subHeaderText {
         font-size: 30pt;
     }
-   /* .customPadding {
-        padding-top: 15%;
-    }
-}
-
-@media (max-width: 1000px) {
-    .contactInfoHeader {
-        font-size: 40pt;
-    }
-    .contactInfo-subHeaderText {
-        font-size: 27pt;
-        padding-bottom: 3%;
-    }
-    /*.customPadding {
-        padding-top: 15%;
-    }*/
 }
 
 @media (max-width: 960px) {
@@ -151,9 +132,6 @@
     .maxIconWidth {
         max-width: 15px;
     }
-    /*.shareButtonCustomPadding {
-        padding-top: 2%;
-    }*/
 }
 
 @media (max-width: 380px) {
@@ -177,14 +155,4 @@
     .maxIconWidth {
         max-width: 12px;
     }
-    /*.reducedPadding {
-        padding-right: -2px;
-    }*/
 }
-/*
-@media (max-width: 320px) {
-    .shareButton {
-        font-size: 9pt;
-        padding: 5px 15px;
-    }
-}*/
