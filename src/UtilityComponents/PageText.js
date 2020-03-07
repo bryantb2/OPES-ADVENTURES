@@ -434,9 +434,9 @@ TextConstants.ContactTitle = "Contact Information";
 TextConstants.ContactSubTitle = "For Comments, Questions, or Business Inquiries about OPES Adventures:";
 TextConstants.MerchStoreText = "abc.com";
 TextConstants.LocationText = "USA";
-TextConstants.PhoneText = "541 665 7834";
+TextConstants.PhoneText = "541 665 7834 ";
 TextConstants.TwitterText = "JerryTheBoss";
-TextConstants.EmailText = "jerry@opespacific.io";
+TextConstants.EmailText = "opesadventures@gmail.com";
 
 
 
