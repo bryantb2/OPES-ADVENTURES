@@ -21,16 +21,8 @@ function ContactInfo(props) {
                 </div>
 
                 <div className="row justify-content-center mb-3">
-                    <div className="col-lg-4 col-md-6 col-6 footer-subText mb-4">
-                        <div className="d-flex justify-content-center">
-                            <div className="px-2">
-                                <img className="icon specialMaxIconWidth" width="25" src={locationIcon}/>
-                            </div>
-                            <div className="p-1">{props.locationText}</div>
-                        </div>
-                    </div>
                     <div className="col-lg-4 col-md-6 col-6 footer-subText pl-0 mb-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-end">
                             <div className="px-2">
                                 <img className="icon maxIconWidth" width="30" src={emailIcon}/>
                             </div>
