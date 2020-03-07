@@ -421,7 +421,7 @@ TextConstants.ThirdColParagraph = "Spread the word about OPES USA and the MyAmer
 
 
 // SUPPORT TEXT
-TextConstants.SupportTitle = "Support OPES USA";
+TextConstants.SupportTitle = "Support OPES Adventures";
 TextConstants.SupportParagraph = "If you like what we are doing, consider supporting us. It's as easy as hitting the support button below!";
 TextConstants.DownloadTitle = "Download the OPES ID App";
 TextConstants.DownloadParagraph = "Scan the QR code within the OPES ID mobile app to directly support our node!";
