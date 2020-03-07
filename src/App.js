@@ -11,7 +11,7 @@ import Supportpage from "./Components/supportSection/Supportpage.js";
 import TextConstants from "./UtilityComponents/PageText.js";
 
 // cover page background and logo images
-import MainBackgroundImage from "./ImageAssets/adventurePics/outdoorStock.jpg";
+import MainBackgroundImage from "./ImageAssets/adventurePics/campingStock.jpg";
 import Logo from "./ImageAssets/icons/adventureWhiteLogo.png";
 
 // support page QR code import
