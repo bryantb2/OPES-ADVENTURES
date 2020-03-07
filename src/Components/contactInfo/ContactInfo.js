@@ -26,7 +26,7 @@ function ContactInfo(props) {
                             <div className="px-2">
                                 <img className="icon maxIconWidth" width="30" src={emailIcon}/>
                             </div>
-                            <div className="p-1">{props.emailText}</div>
+                            <a href={props.emailText} className="text-light p-1" target="_blank">{props.emailText}</a>
                         </div>
                     </div>
                 </div>
