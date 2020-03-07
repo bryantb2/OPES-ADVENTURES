@@ -17,13 +17,13 @@
 }
 
 /* header and sub header text styles and alignment */
-.customHeaderAlignText {
+/*.customHeaderAlignText {
     text-align: center;
 }
 
 .customContentJustify-center {
     justify-content: center;
-}
+}*/
 
 .contactInfoHeader {
     font-family: 'FuturaPT-Medium';
@@ -36,7 +36,7 @@
     font-family: 'FuturaPT-Light';
     color: white;
     min-width: 100%;
-    font-size: 23pt;
+    font-size: 35pt;
     padding-bottom: 2%;
     text-align: center;
 }
@@ -54,7 +54,7 @@
 .footer-subText {
     color: white;
     font-family: 'FuturaPT-Light';
-    font-size: 15pt;
+    font-size: 25pt;
 }
 
 .verticalLineStyle {
@@ -92,7 +92,7 @@
 
 .shareTextCustom {
     font-family: 'FuturaPT-Light';
-    font-size: 11pt;
+    font-size: 20pt;
 }
 
 /* CONTACT INFO MEDIA QUERY OPTIMIZATION */
