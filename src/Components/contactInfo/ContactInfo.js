@@ -61,7 +61,7 @@ function ContactInfo(props) {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-4 col-4 h-100">
                         <div className="d-flex justify-content-start pl-0">
                             <div className="p-2 shareTextCustom text-light">Please consider sharing this site:</div>
