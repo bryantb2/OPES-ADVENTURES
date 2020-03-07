@@ -12,7 +12,7 @@ import TextConstants from "./UtilityComponents/PageText.js";
 
 // cover page background and logo images
 import MainBackgroundImage from "./ImageAssets/adventurePics/campingStock.jpg";
-import Logo from "./ImageAssets/icons/adventureWhiteLogo.png";
+import Logo from "./ImageAssets/icons/QAMainLogo.png";
 
 // support page QR code import
 import QRCodeImage from "./ImageAssets/QRCode.png";

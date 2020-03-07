@@ -37,22 +37,6 @@ function ContactInfo(props) {
                             <div className="p-1">{props.emailText}</div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-6 footer-subText mb-4">
-                        <div className="d-flex justify-content-center">
-                            <div className="px-2">
-                                <img className="icon maxIconWidth" width="29" src={phoneIcon}/>
-                            </div>
-                            <div className="p-1">{props.phoneText}</div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-6 footer-subText pl-0 mb-4">
-                        <div className="d-flex justify-content-center">
-                            <div className="px-2">
-                                <img className="icon maxIconWidth" width="30" src={socialMediaIcon}/>
-                            </div>
-                            <div className="p-1">{props.twitterText}</div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </footer>
