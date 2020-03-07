@@ -6,7 +6,7 @@ function Homepage(props) {
     return (
         <section id="homeSection" className={Styles.homePageContainer}>
             <div className={Styles.homePageContainerSecondary}>
-                <div className="container py-5">
+                <div style={{paddingBottom: "10%",paddingTop:"10%"}} className="container">
                     <article>
                         <div className="h-100">
                             <div style={{marginBottom:"-5%"}} className={Styles.homeBoldText + " w-100 text-center p-2"}>

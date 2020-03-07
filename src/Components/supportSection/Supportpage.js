@@ -6,7 +6,7 @@ import TextConstants from "../../UtilityComponents/PageText.js";
 function Supportpage(props) {
     
     return(
-        <section id="supportSection" className={Styles.customSupportPadding + " row"}>
+        <section id="supportSection" className={Styles.customSupportPadding + " row justify-content-center"}>
             <div className="col-lg-4 col-10 flex-column mb-5">
                 <div className={" d-flex p-2 justify-content-center text-center"}>
                     <h1 className={Styles.titleTextStyle}>{props.firstTitle}</h1>
