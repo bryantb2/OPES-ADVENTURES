@@ -10,10 +10,6 @@ function Supportpage(props) {
     return(
         <section id="supportSection">
             <div className={Styles.customSupportPadding}>
-                <div className="p-2 mb-4">
-                    <h1 className={Styles.supportHeader + " text-center"}>Two Ways to Support</h1>
-                    <hr style={{width: "10%", borderWidth:"thick"}} className="mt-5 mb-3 border-dark bg-dark" />
-                </div>
                 <div className="">
                     <div className="p-2 mb-4 d-flex justify-content-center">
                         <Card
