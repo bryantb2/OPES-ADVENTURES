@@ -5,8 +5,8 @@ import DownArrow from "../../ImageAssets/downArrow.svg";
 function Homepage(props) {
     return (
         <section id="homeSection" className={Styles.homePageContainer}>
-            <div className={Styles.homePageContainerSecondary}>
-                <div style={{paddingBottom: "10%",paddingTop:"10%"}} className="container">
+            <div className={Styles.homePageContainerSecondary + " pt-5 pb-2"}>
+                <div className="container">
                     <article>
                         <div className="h-100">
                             <div style={{marginBottom:"-5%"}} className={Styles.homeBoldText + " w-100 text-center p-2"}>
@@ -21,6 +21,10 @@ function Homepage(props) {
                     <article className="h-100 text-center">
                         <p className={Styles.homeParagraphText}>
                             {props.mainContentText}
+                        </p>
+                        <hr style={{width: "15%", borderWidth:"thick"}} className="my-5 border-light bg-light" />
+                        <p className={Styles.homeParagraphText}>
+                            {props.mainContentText2}
                         </p>
                     </article>
 

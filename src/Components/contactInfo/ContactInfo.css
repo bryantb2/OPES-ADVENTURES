@@ -32,7 +32,7 @@
 .footer-subText {
     color: white;
     font-family: 'FuturaPT-Light';
-    font-size: 25pt;
+    font-size: 35pt;
 }
 
 .shareButton {
@@ -60,22 +60,12 @@
     .contactInfo-subHeaderText {
         font-size: 30pt;
     }
-}
-
-@media (max-width: 960px) {
-    .shareButton {
-        border-width:2px;
-        font-size: 15pt;
-        padding: 12px 29px;
+    .footer-subText {
+        font-size: 40pt;
     }
 }
 
 @media (max-width: 770px) {
-    .shareButton {
-        border-width:2px;
-        font-size: 13pt;
-        padding: 10px 27px;
-    }
     .contactInfoHeader {
         font-size: 45pt;
     }
@@ -83,16 +73,14 @@
         font-size: 27pt;
     }
     .footer-subText {
-        font-size: 20pt;
+        font-size: 30pt;
+    }
+    .maxIconWidth {
+        width: 50px;
     }
 }
 
 @media (max-width: 550px) {
-    .shareButton {
-        border-width:1.75px;
-        font-size: 12pt;
-        padding: 8px 20px;
-    }
     .contactInfo-subHeaderText {
         font-size: 20pt;
     }
@@ -100,37 +88,23 @@
         font-size: 35pt
     }
     .footer-subText {
-        font-size: 12pt;
-    }
-    .shareTextCustom {
-        font-size: 15pt;
+        font-size: 30pt;
     }
 }
 
 @media (max-width: 480px) {
-    .shareButton {
-        border-width: 2px;
-        font-size: 10pt;
-        padding: 8px 20px;
-    }
     .contactInfo-subHeaderText {
-        font-size: 12pt;
+        font-size: 18pt;
     }
     .contactInfoHeader {
-        font-size: 30pt;
+        font-size: 35pt;
         padding-bottom: 2%;
     }
     .footer-subText {
-        font-size: 12pt;
-    }
-    .shareTextCustom {
-        font-size: 10pt;
-    }
-    .specialMaxIconWidth {
-        max-width: 12px;
+        font-size: 22pt;
     }
     .maxIconWidth {
-        max-width: 15px;
+        max-width: 30px;
     }
 }
 
@@ -140,19 +114,9 @@
         padding-bottom: 3%;
     }
     .footer-subText {
-        font-size: 10pt;
-    }
-    .shareButton {
-        font-size: 10pt;
-        padding: 6px 18px;
-    }
-    .shareTextCustom {
-        font-size: 10pt;
-    }
-    .specialMaxIconWidth {
-        max-width: 9px;
+        font-size: 18pt;
     }
     .maxIconWidth {
-        max-width: 12px;
+        max-width: 22px;
     }
 }

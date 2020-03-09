@@ -23,10 +23,10 @@ function ContactInfo(props) {
                 <div className="row justify-content-center mb-3">
                     <div className="col-lg-4 col-md-6 col-6 footer-subText pl-0 mb-4">
                         <div className="d-flex justify-content-center">
-                            <div className="px-2">
-                                <img className="icon maxIconWidth" width="30" src={emailIcon}/>
+                            <div className="px-2 pt-1">
+                                <img className="icon maxIconWidth" width="50" src={emailIcon}/>
                             </div>
-                            <a href={props.emailText} className="text-light p-1" target="_blank">{props.emailText}</a>
+                            <a href={"mailto:" + props.emailText} className="text-light p-1" target="_blank">{props.emailText}</a>
                         </div>
                     </div>
                 </div>

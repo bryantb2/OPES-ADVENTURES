@@ -19,6 +19,11 @@
     font-size: 15pt;
 }
 
+.supportHeader {
+    font-family: 'FuturaPT-Medium';
+    font-size: 45pt;
+}
+
 /* Page container styling */
 .customSupportPadding {
     padding-top: 5%;

@@ -36,6 +36,7 @@ function App() {
         </div>
         <Homepage 
             mainContentText={TextConstants.HomePageText}
+            mainContentText2={TextConstants.HomePageText2}
         />
         <Divider
             dividerNumber={1}
