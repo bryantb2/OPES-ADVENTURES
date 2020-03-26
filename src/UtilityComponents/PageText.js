@@ -380,7 +380,7 @@ let TextConstants = (()=> {
 TextConstants.FirstButtonText="Support";
 TextConstants.SecondButtonText="Support";
 TextConstants.ThirdButtonText="Visit";
-TextConstants.ButtonSupportLink="#";
+TextConstants.ButtonSupportLink="https://mobile.opes.pe/opesapp/check-in?ref=qrcode&name=OPES%20Adventures&url=https%3A%2F%2Faccess.opesadventures.com";
 TextConstants.ButtonProductLink="#";
 
 
