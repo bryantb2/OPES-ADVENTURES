@@ -444,7 +444,7 @@ TextConstants.MerchStoreText = "abc.com";
 TextConstants.LocationText = "USA";
 TextConstants.PhoneText = "541 665 7834 ";
 TextConstants.TwitterText = "AdventuresOpes";
-TextConstants.EmailText = "opesadventures@gmail.com";
+TextConstants.EmailText = "opesadventures@protonmail.com";
 
 
 
