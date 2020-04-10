@@ -32,7 +32,7 @@ function ContactInfo(props) {
                             <div className="px-2 pt-1">
                                 <img className="icon maxIconWidth" width="50" src={socialMediaIcon}/>
                             </div>
-                            <a href={"mailto:" + props.twitterText} className="text-light p-1" target="_blank">{props.twitterText}</a>
+                            <a href={"https://twitter.com/AdventuresOpes"} className="text-light p-1" target="_blank">{props.twitterText}</a>
                         </div>
                     </div>
                 </div>
