@@ -443,7 +443,7 @@ TextConstants.ContactSubTitle = "For Comments, Questions, or Business Inquiries 
 TextConstants.MerchStoreText = "abc.com";
 TextConstants.LocationText = "USA";
 TextConstants.PhoneText = "541 665 7834 ";
-TextConstants.TwitterText = "JerryTheBoss";
+TextConstants.TwitterText = "AdventuresOpes";
 TextConstants.EmailText = "opesadventures@gmail.com";
 
 

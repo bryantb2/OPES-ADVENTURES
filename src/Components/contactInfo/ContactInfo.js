@@ -3,8 +3,6 @@ import './ContactInfo.css';
 
 // importing images for layout
 import emailIcon from '../../ImageAssets/icons/emailIcon.png';
-import locationIcon from '../../ImageAssets/icons/locationIcon.png';
-import phoneIcon from '../../ImageAssets/icons/phoneIcon.png';
 import socialMediaIcon from '../../ImageAssets/icons/socialMediaIcon.png';
 
 function ContactInfo(props) {
@@ -21,12 +19,20 @@ function ContactInfo(props) {
                 </div>
 
                 <div className="row justify-content-center mb-3">
-                    <div className="col-lg-4 col-md-6 col-6 footer-subText pl-0 mb-4">
+                    <div className="col-lg-12 col-md-12 col-12 footer-subText pl-0 mb-5">
                         <div className="d-flex justify-content-center">
                             <div className="px-2 pt-1">
                                 <img className="icon maxIconWidth" width="50" src={emailIcon}/>
                             </div>
                             <a href={"mailto:" + props.emailText} className="text-light p-1" target="_blank">{props.emailText}</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-12 footer-subText pl-0 mb-4">
+                        <div className="d-flex justify-content-center">
+                            <div className="px-2 pt-1">
+                                <img className="icon maxIconWidth" width="50" src={socialMediaIcon}/>
+                            </div>
+                            <a href={"mailto:" + props.twitterText} className="text-light p-1" target="_blank">{props.twitterText}</a>
                         </div>
                     </div>
                 </div>

@@ -53,10 +53,7 @@ function App() {
             contactTitle={TextConstants.ContactTitle}
             contactSubTitle={TextConstants.ContactSubTitle}
             emailText={TextConstants.EmailText}
-            merchStoreText={TextConstants.MerchStoreText}
-            phoneText={TextConstants.PhoneText}
             twitterText={TextConstants.TwitterText}
-            locationText={TextConstants.LocationText}
         />
     </div>
   );
